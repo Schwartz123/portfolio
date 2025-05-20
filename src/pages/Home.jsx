@@ -5,6 +5,7 @@ import { AnimatedBackground } from 'animated-backgrounds';
 import Banner from "./components/banner/Banner";
 import AboutMe from "./components/about/AboutMe";
 import Projects from "./components/projects/Projects";
+import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import "./Home.css";
 
@@ -26,6 +27,10 @@ export default function Home() {
 
                 <div id="projects">
                     <Projects/>
+                </div>
+
+                <div id="experience">
+                    <Experience/>
                 </div>
                 
                 <Contact/>
