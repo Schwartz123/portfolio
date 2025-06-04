@@ -13,7 +13,7 @@ export default function Contact() {
                 <img src={emailIcon} alt="Email" className="contact-icon" />
                 E-Mail
             </a>
-            <a href="https://www.linkedin.com/in/peter-schwartz-607b73329/" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <a href="https://www.linkedin.com/in/peter-schwartz-lauridsen-9b6b3a224/" target="_blank" rel="noopener noreferrer" className="contact-item">
                 <img src={linkedInIcon} alt="LinkedIn" className="contact-icon" />
                 LinkedIn
             </a>
