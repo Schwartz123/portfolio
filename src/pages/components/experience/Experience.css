@@ -1,0 +1,108 @@
+.experience-container {
+    text-align: center;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.experience-container h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.experience-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 30px;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.experience-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.experience-card h1 {
+    font-size: 1.8rem;
+    color: rgb(51, 51, 51);
+}
+
+.experience-card h2 {
+    font-size: 1.4rem;
+    color: #f39c12;
+    margin: 5px 0;
+}
+
+.experience-card h3 {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+.experience-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.experience-card .location {
+    color: #666;
+    font-style: italic;
+}
+
+.experience-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-card li {
+    background: #ffffff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.link-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.link-button:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .experience-card {
+        width: 90%;
+    }
+} 
