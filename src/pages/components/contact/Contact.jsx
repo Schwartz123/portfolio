@@ -5,7 +5,6 @@ import emailIcon from "../../images/emailIcon.png";
 import linkedInIcon from "../../images/linkedInIcon.png";
 import cvIcon from "../../images/cvIcon.png";
 import githubIcon from "../../images/githubIcon.png";
-import cvpdf from "../../pdfs/CV.pdf";
 
 export default function Contact() {
     return (
@@ -22,7 +21,7 @@ export default function Contact() {
                 <img src={githubIcon} alt="GitHub" className="contact-icon" />
                 GitHub
             </a>
-            <a href={cvpdf} target="_blank" rel="noopener noreferrer" title="Peter Schwartz Lauridsen - CV" className="contact-item">
+            <a href="/pdfs/CV.pdf" target="_blank" rel="noopener noreferrer" title="Peter Schwartz Lauridsen - CV" className="contact-item">
                 <img src={cvIcon} alt="CV" className="contact-icon" />
                 CV
             </a>
