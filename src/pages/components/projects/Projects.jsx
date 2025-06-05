@@ -2,7 +2,8 @@ import React from "react";
 import "./Projects.css";
 import githubIcon from "../../images/githubIcon.png";
 import pdfIcon from "../../images/pdfIcon.png";
-
+import bachelorpdf from "../../pdfs/Bachelor_project.pdf";
+import traceqpdf from "../../pdfs/Trace-Q_Paper.pdf";
 
 const projects = [
     {
@@ -11,7 +12,7 @@ const projects = [
         description: "This project is focused on machine vision detecting traffic signs to aid self-driving cars. We explore the viability of the DETR algorithm to perform real-time traffic sign detection. Our findings indicate that, while DETR is able to perform real-time detection, it is not comparable to other state-of-the-art models like YOLO and R-CNN.",
         technologies: ["Python", "PyTorch"],
         github:"https://github.com/Traffic-sign-detection-P6AAU",
-        paper: "/Bachelor_project.pdf"
+        paper: bachelorpdf
     },
     {
         type: "[ONGOING] Master's Thesis",
@@ -33,7 +34,7 @@ const projects = [
         description: "8th semester project, focused on trajectory simplification while maintaining high queryability. I was mainly in charge of setting up the various endpoints of the API using Boost Beast. ",
         technologies: ["C++"],
         github:"https://github.com/KarmaKamikaze/TRACE-Q",
-        paper: "/Trace-Q_Paper.pdf"
+        paper: traceqpdf
     }
 ];
 
