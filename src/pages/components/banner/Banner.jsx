@@ -1,6 +1,5 @@
 import React from "react";
 import "./Banner.css";
-
 import emailIcon from "../../images/emailIcon.png";
 import linkedInIcon from "../../images/linkedInIcon.png";
 import cvIcon from "../../images/cvIcon.png";
@@ -23,7 +22,7 @@ export default function Banner() {
                     <img src={githubIcon} alt="GitHub" className="contact-icon" />
                     GitHub
                 </a>
-                <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className="contact-item">
+                <a href="/CV.pdf" target="_blank" rel="noopener noreferrer" className="contact-item">
                     <img src={cvIcon} alt="CV" className="contact-icon" />
                     CV
                 </a>

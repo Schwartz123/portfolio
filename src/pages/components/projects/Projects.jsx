@@ -3,7 +3,6 @@ import "./Projects.css";
 import githubIcon from "../../images/githubIcon.png";
 import pdfIcon from "../../images/pdfIcon.png";
 
-
 const projects = [
     {
         type: "Bachelor's Project",

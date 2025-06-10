@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-
 import emailIcon from "../../images/emailIcon.png";
 import linkedInIcon from "../../images/linkedInIcon.png";
 import cvIcon from "../../images/cvIcon.png";
