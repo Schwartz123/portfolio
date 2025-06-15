@@ -22,14 +22,14 @@ const projects = [
     {
         type: "Personal Project",
         title: "A Personal Portfolio Website",
-        description: "A website I made for myself to better my skills of frontend development. I am always ready to learn (or re-learn) new skills!",
+        description: "A website I made for myself to show others what skills i have, as well as what oher projects i have been a part of.",
         technologies: ["JavaScript", "React", "HTML", "CSS"],
         github:"https://github.com/Schwartz123/portfolio",
     },
     {
         type: "Semester Project",
         title: "TRACE-Q: Trajectory Reduction using Accuracy Control for Reliable Querying",
-        description: "8th semester project, focused on trajectory simplification while maintaining high queryability. I was mainly in charge of setting up the various endpoints of the API using Boost Beast. ",
+        description: "8th semester project, focused on trajectory simplification while maintaining high queryability.",
         technologies: ["C++"],
         github:"https://github.com/KarmaKamikaze/TRACE-Q",
         paper: "/Trace-Q_Paper.pdf"
